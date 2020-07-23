@@ -36,23 +36,50 @@ body header .titulo2 {
 }
 
 .imagen {
-  background: white;
+  background: rgb(255, 255, 255);
   max-width: 100%;
   display: block;
   height: auto;
   margin: 100px auto;
+
 }
 
 .portada {
   width: 750px;
   height: 400px;
-  margin: 10px auto;
-  margin-block-start: 0px;
+  margin-block-start: 100px;
   margin-block-end: 5px;
   margin-inline-start: 200px;
   margin-inline-end: 0px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+    
 }
 
-body figure .captionimagen { text-align: center;
-    margin-left: 50px;
+body figure .captionimagen { 
+  display: flex;
+  justify-content:  center;  
+  align-content: stretch;
+  padding: 0px 0px 50px 0px;
+}
+
+ .titulo3{
+  display: flex;
+  align-content: center;
+  padding: 30px 50px 50px 400px;
+  
+}
+.lu{
+  margin: 20px 300px 0px 300px;
+
+}
+.p{
+  margin: 20px 350px 0px 350px;
+  font-style: italic ;
+}
+
+.referencia{
+  margin: 20px 400px 0px 400px;
+  font-style: italic ;
 }
