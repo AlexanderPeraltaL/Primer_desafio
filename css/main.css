@@ -44,7 +44,7 @@ body figure .imagen {
 
 }
 
-.portada {
+body figure .portada {
   width: 750px;
   height: 400px;
   margin-block-start: 100px;
@@ -64,22 +64,22 @@ body figure .captionimagen {
   padding: 0px 0px 50px 0px;
 }
 
- .titulo3{
+ body section .titulo3{
   display: flex;
   align-content: center;
   padding: 30px 50px 50px 400px;
   
 }
-.lu{
+body section .lu{
   margin: 20px 300px 0px 300px;
 
 }
-.p{
+ body section .p{
   margin: 20px 350px 0px 350px;
   font-style: italic ;
 }
 
-.referencia{
+body section .referencia{
   margin: 20px 400px 0px 400px;
   font-style: italic ;
 }
