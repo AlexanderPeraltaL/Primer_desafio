@@ -35,7 +35,7 @@ body header .titulo2 {
   color: #5f5f5f;
 }
 
-.imagen {
+body figure .imagen {
   background: rgb(255, 255, 255);
   max-width: 100%;
   display: block;
